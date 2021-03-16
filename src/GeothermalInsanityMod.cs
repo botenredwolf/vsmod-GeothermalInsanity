@@ -11,6 +11,10 @@ using Vintagestory.API.MathTools;
 
 namespace GeothermalInsanity {
   public class GeothermalInsanityMod : ModSystem {
+	public override double ExecuteOrder() {
+      //has it execute after in-game engine fuckery to override variations
+	  return 999;
+    }
     public override void Start(ICoreAPI api) {
 		//some witchcraft from goxmeor to start this all
     	api.Event.OnGetClimate += (ref ClimateCondition climate, BlockPos pos, EnumGetClimateMode mode, double totalDays) => {
@@ -33,7 +37,7 @@ namespace GeothermalInsanity {
 			}
 			//doing the actual temperature shifts
 			if (subDepth > 0) {
-				climate.Temperature = 5 + (10 / subDepth);
+				climate.Temperature = 5 + (subDepth / 2.5f);
 			}
    		};
       }
