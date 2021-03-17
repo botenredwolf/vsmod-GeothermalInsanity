@@ -7,7 +7,7 @@
     "goxmeor", "botenredwolf", "quixjote"
   ],
   "description": "Makes it hot underground! Grow crops! Get warm! Take a leisurely dip in the lava.",
-  "version": "1.0",
+  "version": "1.0.1",
   "dependency": {
     "game": ""
   }
