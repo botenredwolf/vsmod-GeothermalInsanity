@@ -1,13 +1,13 @@
 {
   "type": "Code",
-  "side": "Server",
+  "side": "Universal",
   "modid": "geothermalinsanity",
   "name": "GeothermalInsanity",
   "authors": [
-    "goxmeor"
+    "goxmeor", "botenredwolf", "quixjote"
   ],
   "description": "Makes it hot underground! Grow crops! Get warm! Take a leisurely dip in the lava.",
-  "version": "0.0.1",
+  "version": "1.0",
   "dependency": {
     "game": ""
   }
