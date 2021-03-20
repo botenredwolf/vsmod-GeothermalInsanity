@@ -1,6 +1,6 @@
 {
   "type": "Code",
-  "side": "Universal",
+  "side": "server",
   "modid": "geothermalinsanity",
   "name": "GeothermalInsanity",
   "authors": [
