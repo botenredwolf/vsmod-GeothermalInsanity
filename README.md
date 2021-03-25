@@ -5,6 +5,8 @@ A WIP mod for making living underground in Vintage Story more doable by creating
 KNOWN ISSUES:
 - Requires client has mod installed locally or temperature reading on HUDs will be inaccurate (confirmed); player *MAY* go hypothermic (unconfirmed).
 - Release v1.1.0 maintains requirement for client-side install and will announce such on server join due to above issue.
+- Swimming in deep water also produces warm environment. Will likely be fixed in a future release.
+- Can be cheesed with mountainous overhangs. Working on a solution.
 
 Shamelessly hiked from chriswa's code. Original README.md contents:
 
